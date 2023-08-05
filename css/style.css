@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.header_section .sky_sect{
+    text-align: center;
+    background-color: #80E5D6;
+}
+.header_section .sky_sect h1{
+    padding: 90px 0 60px 0;
+    font-size: 70px;
+    font-family: cursive;
+    color: #32b47e;
+}
+.header_section .sky_sect h3{
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 600;
+    color: #32b47e;
+}
+.header_section .sky_sect img{
+    width: 600px;
+}
+
+.profile_detail{
+    text-align: center;
+    max-width: 1184px;
+    margin: 0 auto;
+}
+.profile_detail .pro-img-sec{
+    padding-top: 90px;
+}
+.profile_detail .pro-img-sec img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.profile_detail .pro-img-sec h2{
+    font-size: 50px;
+    padding: 50px 0;
+    font-family: inherit;
+    color: #32b47e;
+}
+.profile_detail .pro-img-sec p{
+    font-size: 25px;
+}
+
+.skils h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    color: #32b47e;
+}
+.skils .skil_cont1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1184px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.skils .skil_cont1 .flw_1{
+    width: 30%;
+}
+.skils .skil_cont1 .flw_1 img{
+    width: 100%;
+}
+.skils .skil_cont1 .pg_cnt{
+    width: 70%;
+}
+.skils .skil_cont1 .pg_cnt h4{
+    font-size: 34px;
+    font-family: math;
+    padding: 0 0 28px 60px;
+    color: #528AEC;
+}
+.skils .skil_cont1 .pg_cnt p{
+    font-size: 22px;
+    line-height: 30px;
+    padding: 0 0 0 60px;
+}
+
+.skils .skil_cont2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1184px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.skils .skil_cont2 .pg_cnt-2{
+    width: 70%;
+    text-align: right;
+    padding: 0 60px;
+}
+.skils .skil_cont2 .flw_2{
+    width: 30%;
+}
+.skils .skil_cont2 .flw_2 img{
+    width: 100%;
+}
+.skils .skil_cont2 .pg_cnt-2 h4{
+    font-size: 34px;
+    font-family: math;
+    color: #528AEC;
+    padding-bottom: 30px;
+}
+.skils .skil_cont2 .pg_cnt-2 p{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.skils .skil_cont3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1184px;
+    margin: 0 auto;
+}
+.skils .skil_cont3 .flw_3{
+    width: 30%;
+}
+.skils .skil_cont3 .flw_3 img{
+    width: 100%;
+}
+.skils .skil_cont3 .pg_cnt-3{
+    width: 70%;
+    padding-left: 60px;
+}
+.skils .skil_cont3 .pg_cnt-3 h4{
+    font-size: 34px;
+    font-family: math;
+    color: #528AEC;
+    padding-bottom: 30px;
+}
+.skils .skil_cont3 .pg_cnt-3 p{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.skils .touch{
+    max-width: 1184px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0;
+}
+.skils .touch h3{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 45px 0;
+    color: #32b47e;
+}
+.skils .touch h5{
+    font-size: 35px;
+    padding-bottom: 45px;
+    color: #23ccd2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skils .touch p{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 44px;
+    padding-bottom: 60px;
+}
+
+.touch .btn .m_btn{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #e48f1f;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: all 0.50s ease-in-out;
+}
+.touch .btn .m_btn:hover{
+    background-color: #afe6e2;
+    color: #000;
+}
+
+.last{
+    background-color: #15A5A7;
+    margin-top: 44px;
+}
+.last .last_cnt{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 580px;
+}
+.last .last_cnt .ul_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 50px;
+    font-size: 33px;
+}
+.last .last_cnt p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+
+
+.last .last_cnt .ul_wrap li a{
+    text-decoration: none;
+}
+.last .last_cnt .ul_wrap li .f1:hover{
+    background-color: transparent;
+    color: #bb3d1a;
+}
